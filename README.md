@@ -1,1 +1,4 @@
-# FYP
+# Breat Cancer Detection System
+## Abstract
+There have been several empirical studies addressing breast cancer using machine learning and soft computing techniques.Many claim that their algorithms are faster, easier, or more accurate than others are. This study is based on genetic programming and machine learning algorithms  that  aim  to  construct  a  system  to  accurately  differentiate  between  benign  and malignant breast tumors. The aim of this study was to optimize the learning algorithm. In this context, we applied the genetic programming technique to select the best features and perfect  parameter  values  of  the  machine  learning  classifiers.  The  performance  of  the proposed  method  was  based  on  sensitivity,  specificity,  precision,  accuracy,  and  the  roc curves. The present study proves that genetic programming can automatically find the best model by combining feature preprocessing methods and classifier algorithms. For further information about the project, you can refer the report.
+- A copy of the report for the Phase-I can be found [here](https://github.com/malfunctixn/FYP/blob/main/Documentation/Report-Phase-1.pdf)
