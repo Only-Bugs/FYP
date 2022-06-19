@@ -31,7 +31,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="" alt="need a logo with 200*54" />
+            <img src="images/LL.png" alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -67,7 +67,7 @@
     <!-- End header -->
 
 	<!-- Start All Pages -->
-	<div class="all-page-title page-breadcrumb">
+	<!-- <div class="all-page-title page-breadcrumb">
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
@@ -75,17 +75,17 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- End All Pages -->
-
+<br><br>
 	<!-- Start blog details -->
 	<div class="blog-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Blog</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h1>Predictive models</h1>
+						<p><span style="color: pink;">Last</span> step in the process</p>
 					</div>
 				</div>
 			</div>
@@ -94,37 +94,28 @@
 					<div class="blog-inner-details-page">
 						<div class="blog-inner-box">
 							<div class="side-blog-img">
-								<img class="img-fluid" src="images/inner-blog-img.jpg" alt="inner-blog-img.jpg">
+								<img class="img-fluid" src="images/resultsblog.png" alt="inner-blog-img.jpg">
 
 							</div>
 							<div class="inner-blog-detail details-page">
-								<h3>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h3>
+								<h3>Comparison between algorithms</h3>
 								<blockquote>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non feugiat lacus. Nunc nisi velit, consectetur vitae ex porttitor, placerat scelerisque mauris. Phasellus sit amet tincidunt metus, quis tempus ex. Quisque in lorem ut mi ullamcorper suscipit eu nec purus. Nam maximus sagittis iaculis.</p>
+									<p>A Voting Classifier is a machine learning model that trains on an ensemble of numerous models and predicts an output (class) based on their highest probability of chosen class as the output.It simply aggregates the findings of each classifier passed into Voting Classifier and predicts the output class based on the highest majority of voting. The idea is instead of reating separate dedicated models and finding the accuracy for each them, we create a single model which trains by these models and predicts output based on their combined majority of voting for each output class.
+                  </p>
 								</blockquote>
 
-								<p>Vestibulum quis ultricies enim. Quisque eu sapien a erat congue lacinia bibendum ac massa. Morbi vehicula aliquet libero sit amet dictum. Integer vel mauris non magna consequat porttitor. Nulla facilisi. Suspendisse posuere, elit eu fringilla congue, turpis magna tempor odio, a placerat magna tortor a mauris. Phasellus lobortis turpis dui, eget mollis ex vestibulum auctor. Nunc viverra leo ut accumsan aliquet. Maecenas aliquam dolor eget felis bibendum blandit.</p>
-								<p>Nunc iaculis, massa eget pellentesque mollis, nulla mauris aliquam eros, vitae condimentum leo nisl ut purus. Etiam nibh diam, vehicula non tincidunt id, consequat nec ex. Praesent vulputate sapien non tellus ultrices hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pellentesque arcu erat. Curabitur dapibus fringilla porta. Sed in neque sit amet ante feugiat blandit. Nulla fringilla purus diam, cursus venenatis diam luctus nec.</p>
-								<p>Vestibulum quis ultricies enim. Quisque eu sapien a erat congue lacinia bibendum ac massa. Morbi vehicula aliquet libero sit amet dictum. Integer vel mauris non magna consequat porttitor. Nulla facilisi. Suspendisse posuere, elit eu fringilla congue, turpis magna tempor odio, a placerat magna tortor a mauris.</p>
+								<p>Voting Classifier supports two types of votings:
+                  • Hard Voting: In hard voting, the predicted output class is a class with the highest
+                  majority of votes i.e the class which had the highest probability of being predicted
+                  by each of the classifiers. Suppose three classifiers predicted the output class(A,
+                  A, B), so here the majority predicted A as output. Hence A will be the final
+                  prediction.
+                  • Soft Voting: In soft voting, the output class is the prediction based on the average
+                  of probability given to that class. Suppose given some input to three models, the
+                  prediction probability for class A = (0.30, 0.47, 0.53) and B = (0.20, 0.32, 0.40).
+                  So the average for class A is 0.4333 and B is 0.3067, the winner is clearly class A
+                  because it had the highest probability averaged by each classifier</p>
 							</div>
-							<a class="btn btn-submit" href="blog.html">Continue Reading More</a>
-						</div>
-					<div class="copyright">
-
-	<!-- Start Footer -->
-    <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <p class="company-name">
-                This project was designed by
-                <a href="https://github.com/malfunctixn/FYP"><span>PJ21CS02</span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
 
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
